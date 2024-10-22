@@ -1,0 +1,31 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Statistics Container */
+#statistics-container {
+    text-align: center;
+    background-color: #ffffff; /* White background for stats */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stats Display */
+#stats-display {
+    margin: 20px 0;
+}
+
+/* Chart Styles */
+canvas {
+    margin-top: 20px; /* Space above the chart */
+    border: 1px solid #ddd; /* Optional border for the chart */
+}
